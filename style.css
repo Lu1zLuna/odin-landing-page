@@ -1,0 +1,173 @@
+*,
+*::before,
+**::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, verdana, sans-serif;
+}
+
+.first-section {
+    padding-top: 10px;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+header, .hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links, .hero-secondary-text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.hero-section {
+    width: 50%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 60vh;
+}
+
+.games-descriptions {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.second-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.minecraft, .metal-gear, .gta-v, .crash-bandicoot {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.minecraft-icon, .metal-gear-icon, .gta-v-icon, .crash-bandicoot-icon {
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+.quote-author {
+    font-size: 20px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding-right: 60px;
+}
+
+.fourth-section {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin: 100px 450px;
+    padding: 50px 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-btn {
+    border: 2px solid #F9FAF8;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
