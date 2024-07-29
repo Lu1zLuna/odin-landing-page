@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: roboto, verdana, sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 .first-section {
@@ -115,6 +115,10 @@ a {
     border-radius: 15px;
 }
 
+.description-text {
+    color: #1F2937;
+}
+
 .third-section {
     background-color: #E5E7EB;
     display: flex;
@@ -123,10 +127,10 @@ a {
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
     color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
